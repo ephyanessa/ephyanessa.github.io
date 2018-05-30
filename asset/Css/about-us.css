@@ -1,0 +1,68 @@
+.navbar{
+	background-color: #000e24;
+	border-radius: 2px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+}
+.links{
+	font-family: arial;
+	font-size: 16px;
+	margin-left: 45%;
+}
+.btn-info{
+	background-color: #ffde00;
+	color: #000e24;
+	border-radius: 5px;
+}
+a{
+	color: white;
+}
+a:hover{
+	color: #ffde00;
+	text-decoration: underline;
+}
+.fa-search{
+	color: white;
+}
+.pop{
+	margin-left: 1%;
+}
+h2{
+	color: #000e24;
+	font-family: raleway;
+}
+h1{
+	color: #000e24;
+	font-family: raleway;
+	text-align: center;
+}
+
+hr{
+	border:2px dashed #000e24;
+}
+
+footer{
+	background-color: #22292c;
+}
+.icons{
+	color: white;
+	margin-left: 45%;
+	font-size: 30px;
+}
+.pic{
+	margin-left: 20%;
+	margin-top: -10%; 
+}
+.copy{
+	background-color: #000000;
+	text-align: center;
+	font-size: 16px;
+}
+h4{
+	color: white;
+	font-family: raleway;
+	font-size: 20px;
+}
+.card{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+}
+

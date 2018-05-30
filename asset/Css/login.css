@@ -1,0 +1,84 @@
+.navbar{
+	background-color: #000e24;
+	border-radius: 2px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+}
+.links{
+	font-family: 'raleway';
+	font-size: 16px;
+	margin-left: 45%;
+}
+.btn-info{
+	background-color: #ffde00;
+	color: #000e24;
+	border-radius: 5px;
+}
+a{
+	color: white;
+}
+a:hover{
+	color: #ffde00;
+	text-decoration: underline;
+}
+.fa-search{
+	color: white;
+}
+h1{
+	color: #000e24;
+	font-family: raleway;
+	font-size: 30px;
+	text-align: center;
+}
+.putt{
+	border-bottom: 2px solid #000e24;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	font-size: 20px;
+}
+.hit{
+background-color: #ffde00;
+margin-left: 22%;
+color: #000e24;
+}
+.btn-info:hover{
+	border-color: transparent;
+	background-color: #000e24;
+}
+.blue{
+	color: #000e24;
+	font-family: raleway;
+	font-size: 20px;
+	text-align: center;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+}
+#boy{
+	margin-left: 40%;
+}
+footer{
+	background-color: #22292c;
+}
+.icons{
+	color: white;
+	margin-left: 45%;
+	font-size: 30px;
+}
+.pic{
+	margin-left: 20%;
+	margin-top: -10%;
+}
+.copy{
+	background-color: #000000;
+	font-size: 16px;
+}
+.hey{
+	margin-top: -30%;
+}
+h4{
+	color: white;
+	font-family: raleway;
+	text-align: center;
+	font-size: 20px;
+}

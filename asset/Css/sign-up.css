@@ -1,0 +1,77 @@
+.navbar{
+	background-color: #000e24;
+	border-radius: 2px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+}
+.links{
+	font-family: arial;
+	font-size: 16px;
+	margin-left: 45%;
+}
+.btn-info{
+	background-color: #ffde00;
+	color: #000e24;
+	border-radius: 5px;
+}
+.btn-info:hover{
+	border-color: transparent;
+	background-color: #000e24;
+}
+.call-action{
+	margin-left: 70%;
+}
+.call-action:hover{
+border-color: transparent;
+background-color: #000e24;
+}
+a{
+	color: white;
+}
+a:hover{
+	color: #ffde00;
+}
+.fa-search{
+	color: white;
+}
+h1{
+	color: #000e24;
+	font-family: raleway;
+	font-size: 30px;
+	text-align: center;
+}
+.putt{
+	font-size: 20px;
+	border-bottom: 2px solid #000e24;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+#boy{
+	margin-left: 40%;
+}
+footer{
+	background-color: #22292c;
+}
+.icons{
+	color: white;
+	margin-left: 45%;
+	font-size: 30px;
+}
+.pic{
+	margin-left: 20%;
+	margin-top: -10%;
+}
+.copy{
+	background-color: #000000;
+}
+.hey{
+	margin-top: -30%;
+}
+h4{
+	color: white;
+	font-family: raleway;
+	text-align: center;
+}
