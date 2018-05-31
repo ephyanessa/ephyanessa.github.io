@@ -60,12 +60,12 @@ p{
 	margin-left: 80%;
 }
 label{
-	color: #000e24;
+	color: white;
 }
 .action{
 	margin-left: 27%;
 	margin-top: 18%;
-	color: white;
+	background-color: transparent;
 }
 .call-btn{
 	color: #000e24;
