@@ -34,7 +34,7 @@ a:hover{
 	border-color: transparent;
 }
 .block{
-	background: url('../Images/go.jpg');
+	background: url('../Images/new vip.jpg');
 	position: relative;
 	background-repeat: no-repeat;
 	width: 100%;
@@ -43,19 +43,19 @@ a:hover{
 	background-position: center;
 }
 h1{
-	margin-left: 35%;
+	margin-left: 25%;
 	font-family: 'raleway';
 	font-weight: bold;
-	color: #000e24;
+	color: white;
 }
 h6{
-	color: #000e24;
+	color: white;
 	font-family: raleway;
 	font-weight: bold;
-	margin-left: 50%;
+	margin-left: 35%;
 }
 p{
-	color: #000e24;
+	color: white;
 	font-family: raleway;
 	margin-left: 80%;
 }
@@ -63,9 +63,9 @@ label{
 	color: #000e24;
 }
 .action{
-	margin-left: 40%;
+	margin-left: 27%;
 	background-color: transparent;
-	margin-top: 22%;
+	margin-top: 18%;
 }
 .call-btn{
 	color: #000e24;
