@@ -47,11 +47,11 @@ th,td{
 }
 .call-btn{
 	color: #000e24;
-	background-color:#ffde00 
+	background-color:#ffde00
 	border-color: transparent;
 }
 .call-btn:hover{
-	background-color:#000e24; 
+	background-color:#000e24;
 	color: #ffde00;
 }
 footer{
@@ -76,4 +76,14 @@ h4{
 	font-family: raleway;
 	text-align: center;
 	font-size: 20px;
+}
+
+.seat {
+	width: 200px;
+	height:200px;
+	border: 1px solid black;
+	border-radius:2px;
+}
+.seat:hover{
+	background:yellow;
 }
