@@ -7,7 +7,6 @@
 	font-family: raleway;
 	font-size: 16px;
 	margin-left: 45%;
-	padding: 2px;
 }
 .btn-info{
 	background-color: #ffde00;
@@ -18,6 +17,7 @@ a{
 	color:white ;
 }
 a:hover{
+	color: #ffde00;
 	text-decoration: underline;
 }
 .fa-search{
@@ -66,8 +66,5 @@ h4 {
 .card{
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
 }
-.social{
-	color: #000e24;
-	font-weight: 45px;
-}
+
 

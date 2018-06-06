@@ -78,12 +78,24 @@ h4{
 	font-size: 20px;
 }
 
-.seat {
-	width: 200px;
-	height:200px;
-	border: 1px solid black;
-	border-radius:2px;
+.seat, select-rows {
+	width: 30px;
+	height:30px;
+	border: 1px solid #000e24;
+	border-radius: 2px;
 }
 .seat:hover{
 	background:yellow;
+}
+#bus-select{
+	border: 2px solid #000e24;
+	border-radius: 2px;
+	color: #000e24;
+	margin-left: 40%;
+}
+.all{
+font-family: raleway;
+font-size: 20px;
+text-align: center;
+margin-left: 35%
 }
