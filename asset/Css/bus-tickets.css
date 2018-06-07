@@ -99,7 +99,15 @@ font-size: 20px;
 text-align: center;
 margin-left: 35%
 }
+<<<<<<< HEAD
 #happy{
 	text-align: center;
 }
 
+=======
+
+.selections {
+	text-align: center;
+	position:relative;
+}
+>>>>>>> 193b21756c811de8d361da70782349a541ea12a8
