@@ -9,8 +9,8 @@
 	margin-left: 45%;
 }
 .btn-info{
-	background-color: #ffde00;
-	color: #000e24;
+
+
 	border-radius: 5px;
 }
 a{
@@ -38,7 +38,7 @@ table{
 	border-radius: 5px;
 	color: #000e24;
 	font-size: 18px;
-	margin-left: 28%;
+
 }
 th,td{
 	border: 3px solid #000e24;
@@ -91,7 +91,7 @@ h4{
 	border: 2px solid #000e24;
 	border-radius: 2px;
 	color: #000e24;
-	margin-left: 40%;
+	margin-left: 20%;
 }
 .all{
 font-family: raleway;
@@ -105,9 +105,20 @@ margin-left: 35%
 }
 
 =======
-
 .selections {
+
+	position:inline;
 	text-align: center;
-	position:relative;
 }
->>>>>>> 193b21756c811de8d361da70782349a541ea12a8
+
+.destinations {
+
+	position:inline;
+	text-align: center;
+}
+
+
+.option-select {
+	color:blue;
+	font-style: normal;
+}
