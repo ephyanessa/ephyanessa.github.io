@@ -4,9 +4,13 @@
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
 }
 .links{
+	position: relative;
 	font-family: raleway;
 	font-size: 16px;
-	margin-left: 45%;
+	float: right;
+}
+.links a{
+    padding: 10px;
 }
 .btn-info{
 	background-color: #ffde00;
@@ -15,6 +19,7 @@
 }
 a{
 	color:white ;
+	display: inline;
 }
 a:hover{
 	color: #ffde00;
@@ -23,21 +28,23 @@ a:hover{
 .fa-search{
 	color: white;
 }
-.pop{
-	margin-left: 1%;
-}
-h2{
-	color: #000e24;
+h2, p, li{
+	color: #000e24; 
 	font-family: raleway;
+	font-size: 26px;
 }
 h1{
 	color: #000e24;
 	font-family: raleway;
 	text-align: center;
 }
-
-hr{
-	border:2px dashed #000e24;
+.block{
+	width: 100%;
+	height: 100%;
+}
+.busy{
+	width: 100%;
+	height: 100%;
 }
 
 footer{

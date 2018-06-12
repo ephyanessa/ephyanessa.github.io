@@ -6,7 +6,8 @@
 .links{
 	font-family: 'raleway';
 	font-size: 16px;
-	margin-left: 45%;
+	float: right;
+	position: relative;
 }
 .btn-info{
 	background-color: #ffde00;
@@ -15,6 +16,10 @@
 }
 a{
 	color: white;
+	display: inline
+}
+.links a{
+	padding: 10px;
 }
 a:hover{
 	color: #ffde00;
@@ -22,9 +27,6 @@ a:hover{
 }
 .fa-search{
 	color: white;
-}
-.pop{
-	margin-left: 1%;
 }
 .btn-info{
 	border-color: transparent;

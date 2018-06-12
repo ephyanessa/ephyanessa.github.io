@@ -6,7 +6,8 @@
 .links{
 	font-family: arial;
 	font-size: 16px;
-	margin-left: 45%;
+	position: relative;
+	float: right;
 }
 .btn-info{
 	background-color: #ffde00;
@@ -24,8 +25,12 @@
 border-color: transparent;
 background-color: #000e24;
 }
+.links a{
+	padding: 10px;
+}
 a{
 	color: white;
+	display: inline;
 }
 a:hover{
 	color: #ffde00;
