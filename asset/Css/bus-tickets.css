@@ -10,8 +10,8 @@
 	position: relative;
 }
 .btn-info{
-	background-color: #ffde00;
-	color: #000e24;
+
+
 	border-radius: 5px;
 }
 .links a{
@@ -41,7 +41,7 @@ table{
 	border-radius: 5px;
 	color: #000e24;
 	font-size: 18px;
-	margin-left: 28%;
+
 }
 th,td{
 	border: 3px solid #000e24;
@@ -94,7 +94,7 @@ h4{
 	border: 2px solid #000e24;
 	border-radius: 2px;
 	color: #000e24;
-	margin-left: 40%;
+	margin-left: 20%;
 }
 .all{
 font-family: raleway;
@@ -106,7 +106,27 @@ margin-left: 35%
 	text-align: center;
 }
 
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 20bfe4b44b091e22534c0fe0629b6990b1d72ae6
 .selections {
+
+	position:inline;
 	text-align: center;
-	position:relative;
 }
+<<<<<<< HEAD
+=======
+
+.destinations {
+
+	position:inline;
+	text-align: center;
+}
+
+
+.option-select {
+	color:blue;
+	font-style: normal;
+}
+>>>>>>> 20bfe4b44b091e22534c0fe0629b6990b1d72ae6

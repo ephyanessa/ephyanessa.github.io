@@ -29,8 +29,14 @@
 <!--this table includes destinations and it indicates the time the buses will leave-->
 <br>
 <br>
-<div class="row">
-	<div class="col-sm-6">
+<div class="container">
+	<div class = "row">
+	<div class="center-block">
+		<h1  id="happy">Bus Seat Selector</h1>
+	</div>
+	</div>
+<div class = "row">
+<div class="col-sm-8 col-centered">
 <table>
 	<tr>
 		<th>DESTINATIONS</th>
@@ -40,7 +46,7 @@
 		<th></th>
 	</tr>
 	<tr>
-		<td>Accra 2 Kumasi</td>
+		<td >Accra 2 Kumasi</td>
 		<td>
 			<select>
 				<option>9:00am</option>
@@ -59,7 +65,7 @@
 			</select>
 		</td>
 		<td>
-			<button type="button" class="btn btn-info call-btn">Select</button>
+			<button type="button"  id="Accra to Kumasi" class="btn btn-info call-btn" onClick="routeClick(this.id)">Select</button>
 		</td>
 	</tr>
 	<tr>
@@ -82,7 +88,8 @@
 			</select>
 		</td>
 		<td>
-			<button type="button" class="btn btn-info call-btn">Select</button>
+			<button type="button"  id="Accra to Cape Coast" class="btn btn-info call-btn" onClick="routeClick(this.id)">Select</button>
+		</td>
 		</td>
 	</tr>
 	<tr>
@@ -225,10 +232,9 @@
 	</tr>
 </table>
 </div>
-<br>
-<br>
-<div class="col-sm-6">
-<h1 id="happy">Bus Seat Selector</h1>
+
+<div class="col-sm-4 col-centered">
+
 <table id="bus-select">
 		<tr id="first-row" class="select-rows"></tr>
 			<td  class = "seat"><button id="1A" onClick="buttonClicked(this.id)">2A</button></td>
@@ -312,19 +318,17 @@
 	</table>
 </div>
 </div>
-<br>
-<br>
-	<form>
-	<label class="all">Dest:<input type="text" name="Destination" placeholder="Enter Destination"></label>
-	<label class="all">Time: <input type="text" name="Time" placeholder="Enter Time"></label>
-	<label class="all">Comp<input type="text" name="Company" placeholder="Enter Company"></label>
-	<label class="all">Mobile:<input type="text" name="Phone-number" placeholder="Please enter phone number"></label>
-	<label class="all">PIN: <input type="text" name="PIN" placeholder="Please enter PIN"></label>
 
-	<div class="selections">
-		<h3>Seat Selected: <div id=selected-seat></div></h3>
 
+
+	<div class="destination">
+		<h3 >Destination: <div id=selected-destination class ="option-select"></div></h3>
 	</div>
+	<div class="selections">
+		<h3 >Seat Selected: <div id=selected-seat class="option-select"></div></h3>
+	</div>
+
+
 	<form>
 
 	<label class="all">Mobile:<input type="text" name="Phone-number" placeholder="Please enter your phone number"></label>
@@ -353,7 +357,7 @@
 			</div>
 	</footer>
 	<!--it ends here-->
-
+</div>
 
 </body>
 </html>
