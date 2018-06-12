@@ -65,7 +65,7 @@
 			</select>
 		</td>
 		<td>
-			<button type="button"  id="Accra to Kumasi" class="btn btn-info call-btn" onClick="routeClick(this.id)">Select</button>
+			<button type="button"  id="Accra to Kumasi" class="btn btn-info call-btn" onClick="routeClick(this.id,45)">Select</button>
 		</td>
 	</tr>
 	<tr>
@@ -320,13 +320,15 @@
 </div>
 
 
-
-	<div class="destination">
-		<h3 >Destination: <div id=selected-destination class ="option-select"></div></h3>
-	</div>
 	<div class="selections">
+
+		<h3 >Destination: <div id=selected-destination class ="option-select"></div></h3>
+
 		<h3 >Seat Selected: <div id=selected-seat class="option-select"></div></h3>
-	</div>
+
+		<h3>Fare Selected: <div id="selected-fare" class="option-select"></div></h3>
+
+</div>
 
 
 	<form>
@@ -334,6 +336,7 @@
 	<label class="all">Mobile:<input type="text" name="Phone-number" placeholder="Please enter your phone number"></label>
 	<label class="all">PIN: <input type="text" name="PIN" placeholder="Please enter your PIN"></label>
 	</form>
+</div><!--Container-->
 <!--this is the last part of the page-->
 	<footer>
 		<div class="row">
@@ -357,7 +360,7 @@
 			</div>
 	</footer>
 	<!--it ends here-->
-</div>
+
 
 </body>
 </html>
