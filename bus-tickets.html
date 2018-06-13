@@ -57,7 +57,7 @@
 		</td>
 		<td>45 cedis</td>
 		<td>
-			<select>
+			<select class="company" id="accra-kumasi-company">
 				<option>STC</option>
 				<option>VVIP</option>
 				<option>Metro Mass</option>
@@ -67,7 +67,7 @@
 		<td>
 			<button type="button"  id="Accra to Kumasi"
 			class="btn btn-info call-btn"
-			 onClick="routeClick(this.id,45,'accra-kumasi-times')">
+			 onClick="routeClick(this.id,45,'accra-kumasi-times', 'accra-kumasi-company')">
 				Select
 			</button>
 		</td>
@@ -84,7 +84,7 @@
 		</td>
 		<td>23 cedis</td>
 		<td>
-			<select>
+			<select class="company" id="accra-cape-coast-company">
 				<option>STC</option>
 				<option>VVIP</option>
 				<option>Metro Mass</option>
@@ -94,7 +94,7 @@
 		<td>
 		<button type="button"  id="Accra to Cape Coast" 
 		class="btn btn-info call-btn" 
-		onClick="routeClick(this.id,23, 'accra-cape-coast-times')">
+		onClick="routeClick(this.id,23, 'accra-cape-coast-times', 'accra-cape-coast-company')">
 		Select</button>
 		</td>
 		</td>
@@ -111,7 +111,7 @@
 		</td>
 		<td>23 cedis</td>
 		<td>
-			<select>
+			<select class="company" id="accra-koforidua-company">
 				<option>STC</option>
 				<option>VVIP</option>
 				<option>Metro Mass</option>
@@ -121,7 +121,8 @@
 		<td>
 			<button type="button"  id="Accra to Koforidua" 
 			class="btn btn-info call-btn" 
-			onClick="routeClick(this.id,23, 'acccra-koforidua')">Select</button>
+			onClick="routeClick(this.id,23, 'acccra-koforidua', 'accra-koforidua-company')">
+			Select</button>
 		</td>
 	</tr>
 	<tr>
@@ -136,7 +137,7 @@
 		</td>
 		<td>70 cedis</td>
 		<td>
-			<select>
+			<select class="company" id="accra-tamale-company">
 				<option>STC</option>
 				<option>VVIP</option>
 				<option>Metro Mass</option>
@@ -146,7 +147,7 @@
 		<td>
 			<button type="button"  id="Accra to Tamale" 
 			class="btn btn-info call-btn" 
-			onClick="routeClick(this.id,70, 'accra-tamale')">Select</button>
+			onClick="routeClick(this.id,70, 'accra-tamale', 'accra-tamale-company')">Select</button>
 		</td>
 	</tr>
 	<tr>
@@ -161,7 +162,7 @@
 		</td>
 		<td>35 cedis</td>
 		<td>
-			<select>
+			<select class="company" id="accra-ho-company">
 				<option>STC</option>
 				<option>VVIP</option>
 				<option>Metro Mass</option>
@@ -171,7 +172,7 @@
 		<td>
 			<button type="button"  id="Accra to Ho" 
 			class="btn btn-info call-btn" 
-			onClick="routeClick(this.id,35, 'accra-ho')">Select</button>
+			onClick="routeClick(this.id,35, 'accra-ho', 'accra-ho-company')">Select</button>
 		</td>
 	</tr>
 	<tr>
@@ -211,7 +212,7 @@
 		</td>
 		<td>45 cedis</td>
 		<td>
-			<select>
+			<select class="company" id="accra-sunyani-company">
 				<option>STC</option>
 				<option>VVIP</option>
 				<option>Metro Mass</option>
@@ -221,7 +222,7 @@
 		<td>
 			<button type="button"  id="Accra to Sunyani" 
 			class="btn btn-info call-btn" 
-			onClick="routeClick(this.id,45, 'accra-sunyani')">Select</button>
+			onClick="routeClick(this.id,45, 'accra-sunyani', 'accra-sunyani-company')">Select</button>
 		</td>
 	</tr>
 	<tr>
@@ -236,7 +237,7 @@
 		</td>
 		<td>45 cedis</td>
 		<td>
-			<select>
+			<select class="company" id="accra-wa-company">
 				<option>STC</option>
 				<option>VVIP</option>
 				<option>Metro Mass</option>
@@ -246,7 +247,7 @@
 		<td>
 			<button type="button"  id="Accra to Wa" 
 			class="btn btn-info call-btn" 
-			onClick="routeClick(this.id,45, 'accra-wa')">Select</button>
+			onClick="routeClick(this.id,45, 'accra-wa', 'accra-wa-company')">Select</button>
 		</td>
 	</tr>
 </table>
@@ -256,10 +257,10 @@
 
 <table id="bus-select">
 		<tr id="first-row" class="select-rows"></tr>
-			<td  class = "seat"><button id="1A" onClick="buttonClicked(this.id)">2A</button></td>
-			<td  class = "seat"><button id="1B" onClick="buttonClicked(this.id)">2B</button></td>
-			<td class = "seat"><button id="1C"  onClick="buttonClicked(this.id)">2C</button></td>
-			<td class = "seat"><button id="1D" onClick="buttonClicked(this.id)">2D</button></td>
+			<td  class = "seat"><button id="1A" onClick="buttonClicked(this.id)">1A</button></td>
+			<td  class = "seat"><button id="1B" onClick="buttonClicked(this.id)">1B</button></td>
+			<td class = "seat"><button id="1C"  onClick="buttonClicked(this.id)">1C</button></td>
+			<td class = "seat"><button id="1D" onClick="buttonClicked(this.id)">1D</button></td>
 		</tr>
 		<tr id="second-row" class="select-rows"></tr>
 			<td  class = "seat"><button id="2A" onClick="buttonClicked(this.id)">2A</button></td>
@@ -340,11 +341,10 @@
 
 
 	<div class="selections">
-
-
 		<h3 >Destination: <div id=selected-destination class ="option-select"></div></h3>
 		<h3>Time: <div id="selected-time" class="option-select"></div></h3>
 		<h3>Fare Selected: <div id="selected-fare" class="option-select"></div></h3>
+		<h3>Company Selected: <div id="selected-company" class="option-select"></div></h3>
 		<h3 >Seat Selected: <div id=selected-seat class="option-select"></div></h3>
 
 </div>
