@@ -92,8 +92,8 @@
 			</select>
 		</td>
 		<td>
-		<button type="button"  id="Accra to Cape Coast" 
-		class="btn btn-info call-btn" 
+		<button type="button"  id="Accra to Cape Coast"
+		class="btn btn-info call-btn"
 		onClick="routeClick(this.id,23, 'accra-cape-coast-times', 'accra-cape-coast-company')">
 		Select</button>
 		</td>
@@ -119,8 +119,8 @@
 			</select>
 		</td>
 		<td>
-			<button type="button"  id="Accra to Koforidua" 
-			class="btn btn-info call-btn" 
+			<button type="button"  id="Accra to Koforidua"
+			class="btn btn-info call-btn"
 			onClick="routeClick(this.id,23, 'acccra-koforidua', 'accra-koforidua-company')">
 			Select</button>
 		</td>
@@ -145,8 +145,8 @@
 			</select>
 		</td>
 		<td>
-			<button type="button"  id="Accra to Tamale" 
-			class="btn btn-info call-btn" 
+			<button type="button"  id="Accra to Tamale"
+			class="btn btn-info call-btn"
 			onClick="routeClick(this.id,70, 'accra-tamale', 'accra-tamale-company')">Select</button>
 		</td>
 	</tr>
@@ -170,8 +170,8 @@
 			</select>
 		</td>
 		<td>
-			<button type="button"  id="Accra to Ho" 
-			class="btn btn-info call-btn" 
+			<button type="button"  id="Accra to Ho"
+			class="btn btn-info call-btn"
 			onClick="routeClick(this.id,35, 'accra-ho', 'accra-ho-company')">Select</button>
 		</td>
 	</tr>
@@ -195,8 +195,8 @@
 			</select>
 		</td>
 		<td>
-			<button type="button"  id="Accra to Takoradi" 
-			class="btn btn-info call-btn" 
+			<button type="button"  id="Accra to Takoradi"
+			class="btn btn-info call-btn"
 			onClick="routeClick(this.id,45, 'accra-takoradi')">Select</button>
 		</td>
 	</tr>
@@ -220,8 +220,8 @@
 			</select>
 		</td>
 		<td>
-			<button type="button"  id="Accra to Sunyani" 
-			class="btn btn-info call-btn" 
+			<button type="button"  id="Accra to Sunyani"
+			class="btn btn-info call-btn"
 			onClick="routeClick(this.id,45, 'accra-sunyani', 'accra-sunyani-company')">Select</button>
 		</td>
 	</tr>
@@ -245,8 +245,8 @@
 			</select>
 		</td>
 		<td>
-			<button type="button"  id="Accra to Wa" 
-			class="btn btn-info call-btn" 
+			<button type="button"  id="Accra to Wa"
+			class="btn btn-info call-btn"
 			onClick="routeClick(this.id,45, 'accra-wa', 'accra-wa-company')">Select</button>
 		</td>
 	</tr>
@@ -341,8 +341,24 @@
 
 
 	<div class="selections">
-		<h3 >Destination: <div id=selected-destination class ="option-select"></div></h3>
-		<h3>Time: <div id="selected-time" class="option-select"></div></h3>
+		<div class="d-inline-block">
+			<h3>Destination: </h3>
+		</div>
+		<div class="d-inline-block">
+				<h3><div id=selected-destination class ="option-select"></div></h3>
+		</div>
+		<br>
+
+		<div class="d-inline-block">
+			<h3>Time: </h3>
+		</div>
+		<div class="d-inline-block">
+				<h3><div id=selected-time class ="option-select"></div></h3>
+		</div>
+		<br>
+
+
+		<!-- TODO: Make the other's inline block using same syntax -->
 		<h3>Fare Selected: <div id="selected-fare" class="option-select"></div></h3>
 		<h3>Company Selected: <div id="selected-company" class="option-select"></div></h3>
 		<h3 >Seat Selected: <div id=selected-seat class="option-select"></div></h3>
