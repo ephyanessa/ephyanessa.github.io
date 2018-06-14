@@ -82,8 +82,7 @@ h4{
 }
 
 .seat, select-rows {
-	width: 30px;
-	height:30px;
+
 	border: 1px solid #000e24;
 	border-radius: 2px;
 }
@@ -119,6 +118,14 @@ margin-left: 35%
 			border: none;
 			background-color: rgb(91,234,208);
 			color: #333;
-			cursor: pointer;
 			display: inline-block;
-	}
+			cursor:pointer;
+}
+
+.seat {
+	background-color: Transparent;
+	background-repeat:no-repeat;
+	border: none;
+	overflow: hidden;
+	outline:none;
+}
