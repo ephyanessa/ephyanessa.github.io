@@ -113,3 +113,12 @@ margin-left: 35%
 .option-select {
 	color:blue;
 }
+
+#button-ticket {
+			padding: 12px 50px;
+			border: none;
+			background-color: rgb(91,234,208);
+			color: #333;
+			cursor: pointer;
+			display: inline-block;
+	}
