@@ -4,6 +4,12 @@
 	<title>Ticketex</title>
 	<link href="asset/Css/bootstrap-4.0.0-dist/css/bootstrap.min.css" rel="stylesheet">
     <script defer src="asset/font/fontawesome-free-5.0.7/fontawesome-free-5.0.7/svg-with-js/js/fontawesome-all.js"></script>
+
+		<script
+		src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.4/jspdf.min.js"
+	  integrity="sha256-vIL0pZJsOKSz76KKVCyLxzkOT00vXs+Qz4fYRVMoDhw="
+	  crossorigin="anonymous">
+	</script>
 		<script src="asset/Js/select.js"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 	<link rel="stylesheet" type="text/css" href="asset/Css/bus-tickets.css">
@@ -257,82 +263,82 @@
 
 <table id="bus-select">
 		<tr id="first-row" class="select-rows"></tr>
-			<td  class = "seat"><button id="1A" onClick="buttonClicked(this.id)">1A</button></td>
-			<td  class = "seat"><button id="1B" onClick="buttonClicked(this.id)">1B</button></td>
-			<td class = "seat"><button id="1C"  onClick="buttonClicked(this.id)">1C</button></td>
-			<td class = "seat"><button id="1D" onClick="buttonClicked(this.id)">1D</button></td>
+			<td><button id="1A" class = "seat" onClick="buttonClicked(this.id)">1A</button></td>
+			<td ><button id="1B" class = "seat" onClick="buttonClicked(this.id)">1B</button></td>
+			<td><button id="1C"  class = "seat" onClick="buttonClicked(this.id)">1C</button></td>
+			<td><button id="1D" class = "seat" onClick="buttonClicked(this.id)">1D</button></td>
 		</tr>
 		<tr id="second-row" class="select-rows"></tr>
-			<td  class = "seat"><button id="2A" onClick="buttonClicked(this.id)">2A</button></td>
-			<td  class = "seat"><button id="2B" onClick="buttonClicked(this.id)">2B</button></td>
-			<td  class = "seat"><button id="2C" onClick="buttonClicked(this.id)">2C</button></td>
-			<td  class = "seat"><button id="2D" onClick="buttonClicked(this.id)">2D</button></td>
+			<td><button id="2A" class = "seat" onClick="buttonClicked(this.id)">2A</button></td>
+			<td><button id="2B" class = "seat" onClick="buttonClicked(this.id)">2B</button></td>
+			<td><button id="2C" class = "seat" onClick="buttonClicked(this.id)">2C</button></td>
+			<td><button id="2D" class = "seat" onClick="buttonClicked(this.id)">2D</button></td>
 		</tr>
 		<tr id="third-row" class="select-rows"></tr>
-			<td  class = "seat"><button id="3A" onClick="buttonClicked(this.id)">3A</button></td>
-			<td  class = "seat"><button id="3B" onClick="buttonClicked(this.id)">3B</button></td>
-			<td  class = "seat"><button id="3C" onClick="buttonClicked(this.id)">3C</button></td>
-			<td  class = "seat"><button id="3D" onClick="buttonClicked(this.id)">3D</button></td>
+			<td><button id="3A" class = "seat" onClick="buttonClicked(this.id)">3A</button></td>
+			<td><button id="3B" class = "seat" onClick="buttonClicked(this.id)">3B</button></td>
+			<td><button id="3C" class = "seat" onClick="buttonClicked(this.id)">3C</button></td>
+			<td><button id="3D" class = "seat" onClick="buttonClicked(this.id)">3D</button></td>
 		</tr>
 		<tr id="fourth-row" class="select-rows"></tr>
-			<td  class = "seat"><button id="4A" onClick="buttonClicked(this.id)">4A</button></td>
-			<td  class = "seat"><button id="4B" onClick="buttonClicked(this.id)">4B</button></td>
-			<td  class = "seat"><button id="4C" onClick="buttonClicked(this.id)">4C</button></td>
-			<td  class = "seat"><button id="4D" onClick="buttonClicked(this.id)">4D</button></td>
+			<td><button id="4A" class = "seat" onClick="buttonClicked(this.id)">4A</button></td>
+			<td><button id="4B" class = "seat" onClick="buttonClicked(this.id)">4B</button></td>
+			<td><button id="4C" class = "seat" onClick="buttonClicked(this.id)">4C</button></td>
+			<td><button id="4D" class = "seat" onClick="buttonClicked(this.id)">4D</button></td>
 		</tr>
 		<tr id="fifth-row" class="select-rows"></tr>
-			<td  class = "seat"><button id="5A" onClick="buttonClicked(this.id)">5A</button></td>
-			<td  class = "seat"><button id="5B" onClick="buttonClicked(this.id)">5B</button></td>
-			<td  class = "seat"><button id="5C" onClick="buttonClicked(this.id)">5C</button></td>
-			<td  class = "seat"><button id="5D" onClick="buttonClicked(this.id)">5D</button></td>
+			<td><button id="5A" class = "seat" onClick="buttonClicked(this.id)">5A</button></td>
+			<td><button id="5B" class = "seat" onClick="buttonClicked(this.id)">5B</button></td>
+			<td><button id="5C" class = "seat" onClick="buttonClicked(this.id)">5C</button></td>
+			<td><button id="5D" class = "seat" onClick="buttonClicked(this.id)">5D</button></td>
 		</tr>
 		<tr id="sixth-row" class="select-rows"></tr>
-			<td  class = "seat"><button id="6A" onClick="buttonClicked(this.id)">6A</button></td>
-			<td  class = "seat"><button id="6B" onClick="buttonClicked(this.id)">6B</button></td>
-			<td  class = "seat"><button id="6C" onClick="buttonClicked(this.id)">6C</button></td>
-			<td  class = "seat"><button id="6D" onClick="buttonClicked(this.id)">6D</button></td>
+			<td><button id="6A" class = "seat" onClick="buttonClicked(this.id)">6A</button></td>
+			<td><button id="6B" class = "seat" onClick="buttonClicked(this.id)">6B</button></td>
+			<td><button id="6C" class = "seat" onClick="buttonClicked(this.id)">6C</button></td>
+			<td><button id="6D" class = "seat" onClick="buttonClicked(this.id)">6D</button></td>
 		</tr>
 		<tr id="seventh-row" class="select-rows"></tr>
-			<td  class = "seat"><button id="7A" onClick="buttonClicked(this.id)">7A</button></td>
-			<td  class = "seat"><button id="7B" onClick="buttonClicked(this.id)">7B</button></td>
-			<td  class = "seat"><button id="7C" onClick="buttonClicked(this.id)">7C</button></td>
-			<td  class = "seat"><button id="7D" onClick="buttonClicked(this.id)">7D</button></td>
+			<td><button id="7A" class = "seat" onClick="buttonClicked(this.id)">7A</button></td>
+			<td><button id="7B" class = "seat" onClick="buttonClicked(this.id)">7B</button></td>
+			<td><button id="7C" class = "seat" onClick="buttonClicked(this.id)">7C</button></td>
+			<td><button id="7D" class = "seat" onClick="buttonClicked(this.id)">7D</button></td>
 		</tr>
 		<tr id="eighth-row" class="select-rows"></tr>
-			<td  class = "seat"><button id="8A" onClick="buttonClicked(this.id)">8A</button></td>
-			<td  class = "seat"><button id="8B" onClick="buttonClicked(this.id)">8B</button></td>
-			<td  class = "seat"><button id="8C" onClick="buttonClicked(this.id)">8C</button></td>
-			<td  class = "seat"><button id="8D" onClick="buttonClicked(this.id)">8D</button></td>
+			<td><button id="8A" class = "seat" onClick="buttonClicked(this.id)">8A</button></td>
+			<td><button id="8B" class = "seat" onClick="buttonClicked(this.id)">8B</button></td>
+			<td><button id="8C" class = "seat" onClick="buttonClicked(this.id)">8C</button></td>
+			<td ><button id="8D" class = "seat" onClick="buttonClicked(this.id)">8D</button></td>
 		</tr>
 		<tr id="ninth-row" class="select-rows"></tr>
-			<td  class = "seat"><button id="9A" onClick="buttonClicked(this.id)">9A</button></td>
-			<td  class = "seat"><button id="9B" onClick="buttonClicked(this.id)">9B</button></td>
-			<td  class = "seat"><button id="9C" onClick="buttonClicked(this.id)">9C</button></td>
-			<td  class = "seat"><button id="9D" onClick="buttonClicked(this.id)">9D</button></td>
+			<td><button id="9A" class = "seat" onClick="buttonClicked(this.id)">9A</button></td>
+			<td><button id="9B" class = "seat" onClick="buttonClicked(this.id)">9B</button></td>
+			<td><button id="9C" class = "seat" onClick="buttonClicked(this.id)">9C</button></td>
+			<td><button id="9D" class = "seat" onClick="buttonClicked(this.id)">9D</button></td>
 		</tr>
 		<tr id="tenth-row" class="select-rows"></tr>
-			<td  class = "seat"><button id="10A" onClick="buttonClicked(this.id)">10A</button></td>
-			<td  class = "seat"><button id="10B" onClick="buttonClicked(this.id)">10B</button></td>
-			<td  class = "seat"><button id="10C" onClick="buttonClicked(this.id)">10C</button></td>
-			<td  class = "seat"><button id="10D" onClick="buttonClicked(this.id)">10D</button></td>
+			<td><button id="10A" class = "seat" onClick="buttonClicked(this.id)">10A</button></td>
+			<td><button id="10B" class = "seat" onClick="buttonClicked(this.id)">10B</button></td>
+			<td><button id="10C" class = "seat" onClick="buttonClicked(this.id)">10C</button></td>
+			<td><button id="10D" class = "seat" onClick="buttonClicked(this.id)">10D</button></td>
 		</tr>
 		<tr id="eleventh-row" class="select-rows"></tr>
-			<td  class = "seat"><button id="11A" onClick="buttonClicked(this.id)">11A</button></td>
-			<td  class = "seat"><button id="11B" onClick="buttonClicked(this.id)">11B</button></td>
-			<td  class = "seat"><button id="11C" onClick="buttonClicked(this.id)">11C</button></td>
-			<td  class = "seat"><button id="11D" onClick="buttonClicked(this.id)">11D</button></td>
+			<td><button id="11A" class = "seat" onClick="buttonClicked(this.id)">11A</button></td>
+			<td><button id="11B" class = "seat" onClick="buttonClicked(this.id)">11B</button></td>
+			<td><button id="11C" class = "seat" onClick="buttonClicked(this.id)">11C</button></td>
+			<td><button id="11D" class = "seat" onClick="buttonClicked(this.id)">11D</button></td>
 		</tr>
 		<tr id="twelveth-row" class="select-rows"></tr>
-			<td  class = "seat"><button id="12A" onClick="buttonClicked(this.id)">12A</button></td>
-			<td  class = "seat"><button id="12B" onClick="buttonClicked(this.id)">12B</button></td>
-			<td  class = "seat"><button id="12C" onClick="buttonClicked(this.id)">12C</button></td>
-			<td  class = "seat"><button id="12D" onClick="buttonClicked(this.id)">12D</button></td>
+			<td><button id="12A" class = "seat" onClick="buttonClicked(this.id)">12A</button></td>
+			<td><button id="12B" class = "seat" onClick="buttonClicked(this.id)">12B</button></td>
+			<td><button id="12C" class = "seat" onClick="buttonClicked(this.id)">12C</button></td>
+			<td><button id="12D" class = "seat" onClick="buttonClicked(this.id)">12D</button></td>
 		</tr>
 		<tr id="thirteenth-row" class="select-rows"></tr>
-			<td  class = "seat"><button id="13A" onClick="buttonClicked(this.id)">13A</button></td>
-			<td  class = "seat"><button id="13B" onClick="buttonClicked(this.id)">13B</button></td>
-			<td  class = "seat"><button id="13C" onClick="buttonClicked(this.id)">13C</button></td>
-			<td  class = "seat"><button id="13D" onClick="buttonClicked(this.id)">13D</button></td>
+			<td><button id="13A" class = "seat" onClick="buttonClicked(this.id)">13A</button></td>
+			<td><button id="13B" class = "seat" onClick="buttonClicked(this.id)">13B</button></td>
+			<td><button id="13C" class = "seat" onClick="buttonClicked(this.id)">13C</button></td>
+			<td><button id="13D" class = "seat" onClick="buttonClicked(this.id)">13D</button></td>
 
 		</tr>
 	</table>
@@ -367,23 +373,26 @@
 			<h3>Company Selected: </h3>
 		</div>
 		<div class="d-inline-block">
-				<h3><div id="selected-company" class="option-select"></div></h3> 
+				<h3><div id="selected-company" class="option-select"></div></h3>
 		</div>
 		<br>
 		<div class="d-inline-block">
-			<h3 >Seat Selected:</h3> 
+			<h3 >Seat Selected:</h3>
 		</div>
 		<div class="d-inline-block">
 			<h3><div id=selected-seat class="option-select"></div></h3>
 		</div>
+
+		<form>
+			<label class="option-select"><h3>Mobile:<input type="text" name="Phone-number" placeholder="Please enter your phone number"></h3></label>
+			<br>
+			<label class="option-select"><h3>PIN: <input type="text" name="PIN" placeholder="Please enter your PIN"></h3></label>
+		</form>
+
+
+	<button id="button-ticket" class="option-select" onClick="ticketSelected()">Get Ticket</button>
 	</div>
 
-
-	<form>
-
-	<label class="all">Mobile:<input type="text" name="Phone-number" placeholder="Please enter your phone number"></label>
-	<label class="all">PIN: <input type="text" name="PIN" placeholder="Please enter your PIN"></label>
-	</form>
 </div><!--Container-->
 <!--this is the last part of the page-->
 	<footer>
