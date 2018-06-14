@@ -30,12 +30,18 @@ function printPDF() {
     // select the input
     let destination = document.getElementById("selected-destination").innerHTML;
     let fare = document.getElementById("selected-fare").innerHTML;
+    let time = document.getElementById("selected-time").innerHTML;
+    let company = document.getElementById("selected-company").innerHTML;
+    let seat = document.getElementById("selected-seat").innerHTML;
 
     // @param 1 - Coordinate (in units declared at inception of PDF document) against left edge of the page
     // @param 2 - Coordinate (in units declared at inception of PDF document) against upper edge of the page
     // @param 3 - String or array of strings to be added to the page. Each line is shifted one line down per font, spacing settings declared before this call.
     pdf.text(10, 10, `Selected Route: ${destination}`);
     pdf.text(10, 20, `Fare: ${fare}`);
+    pdf.text(10, 30, `Time: ${time}`);
+    pdf.text(10, 40, `Company: ${company}`);
+    pdf.text(10, 50, `Seat: ${seat}`);
 
 		// save the PDF document (downloadable)
 		pdf.save();
