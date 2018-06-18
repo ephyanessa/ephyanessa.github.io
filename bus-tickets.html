@@ -11,6 +11,7 @@
 	  crossorigin="anonymous">
 	</script>
 		<script src="asset/Js/select.js"></script>
+		<script src="asset/js/form-submit.js"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 	<link rel="stylesheet" type="text/css" href="asset/Css/bus-tickets.css">
 </head>
@@ -345,55 +346,68 @@
 </div>
 </div>
 
-
+<form id="resuable_form">
 	<div class="selections">
-		<div class="d-inline-block">
+	<div class="form-group">
+	<div class="d-inline-block">
 			<h3>Destination: </h3>
 		</div>
 		<div class="d-inline-block">
-				<h3><div id=selected-destination class ="option-select"></div></h3>
+				<h3><div id=selected-destination class ="option-select">
+				<input type="text" name="destination" class="form-control" placeholder="Enter Name"></div></h3>
 		</div>
 		<br>
-
+	</div>
+		<div class="form-group">
 		<div class="d-inline-block">
 			<h3>Time: </h3>
 		</div>
 		<div class="d-inline-block">
-				<h3><div id=selected-time class ="option-select"></div></h3>
+				<h3><div id=selected-time class ="option-select">
+				<input type="text" name="time" class="form-control" placeholder="Enter Name"></div></h3>
+		</div>
 		</div>
 		<br>
+
+		<div class="form-group">
 		<div class="d-inline-block">
 			<h3>Fare Selected: </h3>
 		</div>
 		<div class="d-inline-block">
-				<h3><div id="selected-fare" class="option-select"></div></h3>
+				<h3><div id="selected-fare" class="option-select">
+				<input type="text" name="fare" class="form-control" placeholder="Enter Name"></div></h3>
+		</div>
 		</div>
 		<br>
+
+		<div class="form-group">
 		<div class="d-inline-block">
 			<h3>Company Selected: </h3>
 		</div>
 		<div class="d-inline-block">
-				<h3><div id="selected-company" class="option-select"></div></h3>
+				<h3><div id="selected-company" class="option-select" class="form-control">
+				<input type="text" name="company" class="form-control" placeholder="Enter Name"></div></h3>
+		</div>
 		</div>
 		<br>
+
+		<div class="form-group">
 		<div class="d-inline-block">
 			<h3 >Seat Selected:</h3>
 		</div>
 		<div class="d-inline-block">
-			<h3><div id=selected-seat class="option-select"></div></h3>
+			<h3><div id=selected-seat class="option-select">
+				<input type="text" name="seat" class="form-control" placeholder="Enter Name"></div></h3>
 		</div>
-
-		<form>
+		</div>
 			<label class="option-select"><h3>Mobile:<input type="text" name="Phone-number" placeholder="Please enter your phone number"></h3></label>
 			<br>
 			<label class="option-select"><h3>PIN: <input type="text" name="PIN" placeholder="Please enter your PIN"></h3></label>
-		</form>
-
-
-	<button id="button-ticket" class="option-select" onClick="ticketSelected()">Get Ticket</button>
+			<button id="button-ticket" class="option-select" onClick="ticketSelected()">Get Ticket</button>
 	</div>
-
-</div><!--Container-->
+</div>
+</form>
+<!--Container-->
 <!--this is the last part of the page-->
 	<footer>
 		<div class="row">
