@@ -37,8 +37,8 @@ function printPDF() {
     // @param 1 - Coordinate (in units declared at inception of PDF document) against left edge of the page
     // @param 2 - Coordinate (in units declared at inception of PDF document) against upper edge of the page
     // @param 3 - String or array of strings to be added to the page. Each line is shifted one line down per font, spacing settings declared before this call.
-    var imgData = 'data:image/jpeg;base64,'+ Base64.encode('asset/Images/original logo.png');
-    pdf.addImage(imgData, 'png', 100, 10, 100px, 100px);
+    /*var imgData = 'data:image/jpeg;base64,'+ Base64.encode('asset/Images/original logo.png');
+    pdf.addImage(imgData, 'png', 100, 10, 100px, 100px);*/
     pdf.setFontSize(60);
     pdf.text(70, 30, `TicketEX`);
     pdf.setFontSize(10);
